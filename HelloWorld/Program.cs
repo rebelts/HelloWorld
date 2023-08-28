@@ -16,4 +16,3 @@ foreach (XmlNode childNode in rootNode.ChildNodes)
     Console.WriteLine($"Tag Name: {childNode.Name}, Value: {childNode.InnerText}");
 }
 
-Console.ReadLine();
