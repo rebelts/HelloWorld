@@ -1,8 +1,8 @@
 ﻿<?xml version='1.0' encoding='utf-8'?>
 <root>
-	<child1 attribute1="value1">Updated Value</child1>
-	<child2 attribute2="value2">Updated Value</child2>
-	<child3 attribute3="value3">Updated Value</child3>
+	<child1 attribute1="value1">Value</child1>
+	<child2 attribute2="value2">Value</child2>
+	<child3 attribute3="value3">Value</child3>
 	<anotherChild>Another one</anotherChild>
 </root>
 
