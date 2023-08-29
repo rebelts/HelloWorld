@@ -8,11 +8,14 @@ XmlDocument xmlDoc = new XmlDocument();
 xmlDoc.Load("sample.xml"); // Replace with your XML file path
 
 // Get the root node
-XmlNode rootNode = xmlDoc.DocumentElement;
+XmlNode? rootNode = xmlDoc.DocumentElement;
 
-// Print values of all child nodes
-foreach (XmlNode childNode in rootNode.ChildNodes)
+if (rootNode != null)
 {
-    Console.WriteLine($"Tag Name: {childNode.Name}, Value: {childNode.InnerText}");
+    // Print values of all child nodes
+    foreach (XmlNode childNode in rootNode.ChildNodes)
+    {
+        Console.WriteLine($"Tag Name: {childNode.Name}, Value: {childNode.InnerText}");
+    }
 }
 
